@@ -2,13 +2,14 @@
 
 **Graduate-level lecture course**  
 **Krzysztof M. Graczyk**  
+[kgraczyk.github.io](kgraczyk.github.io)
 Institute of Theoretical Physics  
 Faculty of Physics and Astronomy  
 University of Wrocław, Poland
 
 ## About the Course
 
-This repository contains lecture slides for *Theory of Elementary Particles*, a graduate-level course taught at the University of Wrocław since approximately 2011.
+This repository contains lecture slides for *Theory of Elementary Particles*, a graduate-level course taught at the University of Wrocław since 2015.
 
 The course provides a systematic introduction to the theoretical foundations of particle physics, with particular emphasis on symmetry principles, quantum field theory, and the construction of the Standard Model.
 
