@@ -2,7 +2,8 @@
 
 **Graduate-level lecture course**  
 **Krzysztof M. Graczyk**  
-[kgraczyk.github.io](kgraczyk.github.io)
+[kgraczyk.github.io](https://kgraczyk.github.io)
+
 Institute of Theoretical Physics  
 Faculty of Physics and Astronomy  
 University of Wrocław, Poland
