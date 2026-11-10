@@ -8,7 +8,7 @@ const lectures = [
   { id: 4, title: 'Discrete Symmetries', description: 'Parity, charge conjugation, time reversal and CPT.', module: 'foundations', available: true },
   { id: 5, title: 'Lie Groups and SU(2)', description: 'Lie algebras, generators, representation theory and angular momentum.', module: 'hadrons', available: true },
   { id: 6, title: 'SU(3) and Young Tableaux', description: 'Flavor symmetry, SU(3) representations and tensor products.', module: 'hadrons', available: true },
-  { id: 7, title: 'Hadron Multiplets', description: 'SU(3) decompositions, isospin and baryon wave functions.', module: 'hadrons', available: false },
+  { id: 7, title: 'Hadron Multiplets', description: 'SU(3) decompositions, isospin and baryon wave functions.', module: 'hadrons', available: true },
   { id: 8, title: 'Color, Quarks and DIS', description: 'Color, magnetic moments and deep inelastic scattering.', module: 'hadrons', available: false },
   { id: 9, title: 'Gauge Theory and QCD', description: 'Noether’s theorem, Yang–Mills fields, gauge invariance and QCD.', module: 'standard', available: false },
   { id: 10, title: 'Weak Interactions and Goldstone’s Theorem', description: 'Fermi theory, V–A currents, Goldstone’s theorem and electroweak symmetry.', module: 'standard', available: false },
