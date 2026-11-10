@@ -60,7 +60,7 @@ function render() {
         const link = document.createElement('a');
         link.className = 'file-link';
         // Full GitHub URL avoids the GitHub Pages /docs relative-path issue.
-        link.href = 'https://github.com/kgraczyk/TEP-lecture/blob/main/lec' + number + '.pdf';
+        link.href = 'https://raw.githubusercontent.com/kgraczyk/TEP-lecture/main/lec' + number + '.pdf';
         link.target = '_blank';
         link.rel = 'noopener noreferrer';
         link.textContent = 'View PDF ↗';
