@@ -42,7 +42,7 @@ function render() {
     card.querySelector('.module').textContent = moduleNames[lecture.module];
     const footer = card.querySelector('.card-footer');
     if (lecture.available) {
-      const link = document.createElement('a'); link.href = '../lec' + number + '.pdf';
+      const link = document.createElement('a'); link.href = 'https://github.com/kgraczyk/TEP-lecture/blob/main/lec' + number + '.pdf';
       link.target = '_blank'; link.rel = 'noopener noreferrer'; link.textContent = 'View PDF ↗';
       link.setAttribute('aria-label', `View PDF of lecture ${lecture.id}: ${lecture.title}`);
       footer.append(link);
