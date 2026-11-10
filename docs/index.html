@@ -3,20 +3,76 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Theory of Elementary Particles — graduate lecture notes by Krzysztof M. Graczyk, University of Wrocław">
-  <title>Theory of Elementary Particles | K. M. Graczyk</title>
+  <meta name="description" content="Theory of Elementary Particles — graduate-level lecture notes by Krzysztof M. Graczyk, University of Wrocław.">
+  <title>Theory of Elementary Particles · K. M. Graczyk</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 <body>
-<a class="skip" href="#lectures">Skip to lecture library</a>
-<header class="nav"><div class="container nav-inner"><a class="logo" href="#top"><span class="logo-symbol">Ψ</span> TEP <small>/ lecture notes</small></a><nav aria-label="Main navigation"><a href="#about">About</a><a href="#lectures">Lectures</a><a href="#information">Information</a><a class="repo" href="https://github.com/kgraczyk/TEP-lecture">GitHub ↗</a><button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle light / dark appearance">☀</button></nav></div></header>
-<main id="top">
-<section class="hero"><div class="container hero-inner"><div class="hero-copy"><p class="eyebrow">UNIVERSITY OF WROCŁAW · GRADUATE COURSE</p><h1>Theory of<br><em>Elementary Particles</em></h1><p class="lead">From scattering amplitudes and symmetry principles to gauge theories, the Standard Model, and neutrino physics.</p><div class="actions"><a class="button primary" href="#lectures">Explore lectures ↓</a><a class="button secondary" href="https://github.com/kgraczyk/TEP-lecture">View repository ↗</a></div><p class="author"><b>Krzysztof M. Graczyk</b><br>Institute of Theoretical Physics · University of Wrocław</p></div><div class="illustration" aria-hidden="true"><svg viewBox="0 0 440 370"><g fill="none" stroke="#7eb7df" stroke-width="1.5" opacity=".55"><ellipse cx="218" cy="180" rx="165" ry="65" transform="rotate(35 218 180)"/><ellipse cx="218" cy="180" rx="165" ry="65" transform="rotate(-35 218 180)"/><ellipse cx="218" cy="180" rx="165" ry="65" transform="rotate(90 218 180)"/></g><circle cx="218" cy="180" r="14" fill="#67e8f9"/><circle cx="101" cy="112" r="7" fill="#a5b4fc"/><circle cx="335" cy="240" r="7" fill="#93c5fd"/></svg><span class="equation e1">SU(3) × SU(2) × U(1)</span><span class="equation e2">m<sub>W</sub> = gv / 2</span><span class="equation e3">ℒ = −¼ F<sub>μν</sub>F<sup>μν</sup> + ···</span></div></div><div class="container metrics"><div><b>14</b><span>Lecture topics</span></div><div><b>4</b><span>Thematic modules</span></div><div><b>6</b><span>PDFs available</span></div><div><b>CC BY 4.0</b><span>Original material</span></div></div></section>
-<section class="section" id="about"><div class="container intro"><div><p class="eyebrow">01 / ABOUT THE COURSE</p><h2>Understand the <em>why</em><br>behind the equations.</h2></div><div class="intro-text"><p>This graduate-level course develops the foundations of theoretical particle physics through explicit derivations, symmetry principles and physical applications. Rather than presenting the Standard Model as a set of formulas, the lectures build its structure step by step.</p><p>The materials cover scattering theory, group representations, the quark model, QCD, gauge symmetry, electroweak unification, flavor physics and neutrino masses.</p><blockquote>The slides accompany classroom lectures: some intermediate reasoning and interpretations may be explained orally.</blockquote></div></div></section>
-<section class="section library" id="lectures"><div class="container"><p class="eyebrow">02 / LECTURE LIBRARY</p><div class="library-heading"><div><h2>Explore the lectures</h2><p>Search by concept or select a thematic module.</p></div><span class="count"><b id="result-count">14</b> topics</span></div><div class="toolbar"><div class="filters" role="group" aria-label="Filter lecture topics"><button class="selected" data-filter="all" aria-pressed="true">All topics</button><button data-filter="foundations" aria-pressed="false">Foundations</button><button data-filter="hadrons" aria-pressed="false">Quarks & hadrons</button><button data-filter="standard" aria-pressed="false">Standard Model</button><button data-filter="flavor" aria-pressed="false">Flavor & neutrinos</button></div><label class="search">⌕ <input type="search" id="search" placeholder="Search lectures…" aria-label="Search lectures"></label></div><div class="cards" id="cards" aria-live="polite"></div><p class="no-results" id="no-results" hidden>No lectures match your search.</p></div></section>
-<section class="section" id="information"><div class="container information"><article><p class="eyebrow">03 / PREPARATION</p><h2>Prerequisites</h2><p>This course is intended for graduate physics students. Familiarity with quantum mechanics, special relativity and basic quantum field theory is recommended.</p></article><article><p class="eyebrow">04 / OPEN EDUCATION</p><h2>License & feedback</h2><p>Original materials are offered under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Externally sourced figures are excluded unless stated otherwise. Corrections and suggestions are welcome via <a href="https://github.com/kgraczyk/TEP-lecture/issues">GitHub Issues</a>.</p></article></div></section>
-</main>
-<footer><div class="container footer"><div><b>Theory of Elementary Particles</b><span>© <span id="year">2026</span> Krzysztof M. Graczyk · University of Wrocław</span></div><div><a href="https://kgraczyk.github.io">Academic website ↗</a><a href="https://github.com/kgraczyk/TEP-lecture">GitHub ↗</a></div></div></footer>
+  <a class="skip-link" href="#lectures">Skip to lectures</a>
+  <div class="page">
+    <header class="site-header">
+      <div class="institution">University of Wrocław <span aria-hidden="true">·</span> Institute of Theoretical Physics</div>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#lectures">Lectures</a>
+        <a href="#information">Information</a>
+        <a href="https://github.com/kgraczyk/TEP-lecture">Repository ↗</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="introduction" id="about" aria-labelledby="page-title">
+        <p class="overline">Graduate lecture course</p>
+        <h1 id="page-title">Theory of Elementary Particles</h1>
+        <p class="author">Krzysztof M. Graczyk</p>
+        <p class="summary">An introduction to theoretical particle physics, from scattering amplitudes and symmetry principles to gauge theories, the Standard Model, and neutrino physics.</p>
+        <p>The course emphasizes mathematical derivations and the theoretical reasoning behind particle physics. The lecture slides have been developed and updated over successive editions of the course at the University of Wrocław.</p>
+      </section>
+
+      <section class="lectures-section" id="lectures" aria-labelledby="lectures-title">
+        <div class="section-heading">
+          <h2 id="lectures-title">Lecture notes</h2>
+          <p>PDF slides · <span id="available-count">6</span> currently available</p>
+        </div>
+        <div class="controls">
+          <label class="search-label" for="lecture-search">Find a lecture</label>
+          <input id="lecture-search" type="search" placeholder="Search by title or topic" autocomplete="off">
+          <div class="filter-controls" role="group" aria-label="Filter by subject">
+            <button class="selected" data-filter="all" aria-pressed="true">All</button>
+            <button data-filter="foundations" aria-pressed="false">Foundations</button>
+            <button data-filter="hadrons" aria-pressed="false">Hadrons</button>
+            <button data-filter="standard" aria-pressed="false">Standard Model</button>
+            <button data-filter="flavor" aria-pressed="false">Flavor & neutrinos</button>
+          </div>
+        </div>
+        <div id="lecture-list" aria-live="polite"></div>
+        <p id="no-results" class="no-results" hidden>No lectures match your search.</p>
+      </section>
+
+      <section class="information-section" id="information" aria-labelledby="information-title">
+        <h2 id="information-title">Information</h2>
+        <div class="details">
+          <div>
+            <h3>Prerequisites</h3>
+            <p>Quantum mechanics, special relativity, and a basic familiarity with quantum field theory are recommended.</p>
+          </div>
+          <div>
+            <h3>Using these notes</h3>
+            <p>The slides accompany classroom lectures. Some intermediate steps and physical interpretations may be discussed orally.</p>
+          </div>
+          <div>
+            <h3>License and feedback</h3>
+            <p>Original materials: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Third-party content is excluded unless otherwise indicated. Corrections are welcome via <a href="https://github.com/kgraczyk/TEP-lecture/issues">GitHub Issues</a>.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© <span id="year">2026</span> Krzysztof M. Graczyk</span>
+      <span><a href="https://kgraczyk.github.io/">Academic website</a> · <a href="https://github.com/kgraczyk/TEP-lecture">GitHub</a></span>
+    </footer>
+  </div>
 </body>
 </html>
