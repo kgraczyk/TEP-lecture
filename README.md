@@ -56,6 +56,12 @@ University of Wrocław, Poland
 
 Original lecture materials are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). Third-party content is excluded unless otherwise indicated.
 
+### Third-party materials
+
+Original lecture materials are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+
+Some slides contain figures, tables, and excerpts from third-party publications, including the Particle Data Group's *Review of Particle Physics*. Such materials remain subject to their respective licenses and attribution requirements. Sources are acknowledged where applicable.
+
 ## Feedback
 
 Comments, suggestions, and corrections are welcome. If you notice an error or have a suggestion for improving the materials, please open an issue in this repository.
