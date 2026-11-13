@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24208618.svg)](https://doi.org/10.5281/zenodo.24208618)
+
 # Theory of Elementary Particles
 
 **Graduate-level lecture course**  
@@ -58,8 +60,6 @@ Original lecture materials are licensed under Creative Commons Attribution 4.0 I
 
 ### Third-party materials
 
-Original lecture materials are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
-
 Some slides contain figures, tables, and excerpts from third-party publications, including the Particle Data Group's *Review of Particle Physics*. Such materials remain subject to their respective licenses and attribution requirements. Sources are acknowledged where applicable.
 
 ## Feedback
@@ -68,4 +68,4 @@ Comments, suggestions, and corrections are welcome. If you notice an error or ha
 
 
 ## Citation 
-Graczyk, K. M. (2026). Theory of Elementary Particles: Graduate Lecture Notes. University of Wrocław. Zenodo. https://zenodo.org/records/24208618
+Graczyk, K. M. (2026). Theory of Elementary Particles: Graduate Lecture Notes. University of Wrocław. Zenodo. 10.5281/zenodo.24208618
