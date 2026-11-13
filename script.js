@@ -14,7 +14,7 @@ const lectures = [
   { id: 10, title: 'Weak Interactions and Goldstone’s Theorem', description: 'Fermi theory, V–A currents, Goldstone’s theorem and electroweak symmetry.', module: 'standard', available: true },
   { id: 11, title: 'The Higgs Mechanism', description: 'Massive spin-1 fields, Abelian and non-Abelian symmetry breaking.', module: 'standard', available: true },
   { id: 12, title: 'The Electroweak Standard Model', description: 'SU(2) × U(1), W and Z masses, neutral currents and Higgs couplings.', module: 'standard', available: true },
-  { id: 13, title: 'Flavor Mixing and the CKM Matrix', description: 'Cabibbo angle, GIM mechanism, mass matrices and CP violation.', module: 'flavor', available: false },
+  { id: 13, title: 'Flavor Mixing and the CKM Matrix', description: 'Cabibbo angle, GIM mechanism, mass matrices and CP violation.', module: 'flavor', available: true },
   { id: 14, title: 'Neutrino Masses and Oscillations', description: 'Dirac and Majorana neutrinos, seesaw, double-beta decay and oscillations.', module: 'flavor', available: false }
 ];
 const modules = [
