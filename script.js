@@ -10,7 +10,7 @@ const lectures = [
   { id: 6, title: 'SU(3) and Young Tableaux', description: 'Flavor symmetry, SU(3) representations and tensor products.', module: 'hadrons', available: true },
   { id: 7, title: 'Hadron Multiplets', description: 'SU(3) decompositions, isospin and baryon wave functions.', module: 'hadrons', available: true },
   { id: 8, title: 'Color, Quarks and DIS', description: 'Color, magnetic moments and deep inelastic scattering.', module: 'hadrons', available: true },
-  { id: 9, title: 'Gauge Theory and QCD', description: 'Noether’s theorem, Yang–Mills fields, gauge invariance and QCD.', module: 'standard', available: false },
+  { id: 9, title: 'Gauge Theory and QCD', description: 'Noether’s theorem, Yang–Mills fields, gauge invariance and QCD.', module: 'standard', available: true },
   { id: 10, title: 'Weak Interactions and Goldstone’s Theorem', description: 'Fermi theory, V–A currents, Goldstone’s theorem and electroweak symmetry.', module: 'standard', available: false },
   { id: 11, title: 'The Higgs Mechanism', description: 'Massive spin-1 fields, Abelian and non-Abelian symmetry breaking.', module: 'standard', available: false },
   { id: 12, title: 'The Electroweak Standard Model', description: 'SU(2) × U(1), W and Z masses, neutral currents and Higgs couplings.', module: 'standard', available: false },
