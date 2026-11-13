@@ -65,3 +65,7 @@ Some slides contain figures, tables, and excerpts from third-party publications,
 ## Feedback
 
 Comments, suggestions, and corrections are welcome. If you notice an error or have a suggestion for improving the materials, please open an issue in this repository.
+
+
+## Citation 
+Graczyk, K. M. (2026). Theory of Elementary Particles: Graduate Lecture Notes. University of Wrocław. Zenodo. https://zenodo.org/records/24208618
